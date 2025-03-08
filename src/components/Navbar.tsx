@@ -31,7 +31,7 @@ const Navbar = ({ toggleSidebar }) => {
           
           <Link to="/" className="flex items-center gap-2">
             <div className="flex items-center">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
                 <PlusCircle size={20} className="text-primary-foreground" />
               </div>
               <span className="ml-2 text-xl font-semibold tracking-tight text-foreground">Do•It</span>
@@ -81,7 +81,7 @@ const Navbar = ({ toggleSidebar }) => {
               <ThemeToggle />
               <Link 
                 to="/login" 
-                className="px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition"
+                className="px-4 py-2 rounded-lg bg-green-500 text-primary-foreground text-sm font-medium hover:bg-green-500/90 transition"
               >
                 Sign In
               </Link>

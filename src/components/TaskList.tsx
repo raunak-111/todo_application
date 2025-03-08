@@ -121,7 +121,7 @@ const TaskList: React.FC = () => {
                 const dueDate = new Date(t.dueDate);
                 return dueDate.toDateString() === today.toDateString();
               }).length > 0 && (
-                <span className="bg-primary/10 text-primary text-xs px-1.5 py-0.5 rounded-full">
+                <span className="bg-green-500/10 text-green-500 text-xs px-1.5 py-0.5 rounded-full">
                   {filteredTasks.filter(t => {
                     if (!t.dueDate) return false;
                     const today = new Date();

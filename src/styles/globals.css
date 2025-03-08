@@ -1,0 +1,13 @@
+/* ...existing code... */
+.bg-primary {
+  background-color: #34D399; /* Replace with the green color */
+}
+/* ...existing code... */
+.text-primary-foreground {
+  color: #34D399; /* Replace with the green color */
+}
+/* ...existing code... */
+.border-input {
+  border-color: #34D399; /* Replace with the green color */
+}
+/* ...existing code... */

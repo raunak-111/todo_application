@@ -45,7 +45,7 @@ const Login = () => {
       
       <div className="w-full max-w-md">
         <div className="flex items-center justify-center mb-8">
-          <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+          <div className="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center">
             <LogIn size={20} className="text-primary-foreground" />
           </div>
           <span className="ml-2 text-2xl font-semibold tracking-tight">Do•It</span>
@@ -79,7 +79,7 @@ const Login = () => {
                 onChange={handleChange}
                 required
                 placeholder="user@example.com"
-                className="w-full px-4 py-2 rounded-lg border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full px-4 py-2 rounded-lg border border-input bg-background focus:outline-none focus:ring-2 focus:ring-green-500"
               />
               <p className="text-xs text-muted-foreground">For demo, use: user@example.com</p>
             </div>
@@ -97,7 +97,7 @@ const Login = () => {
                 onChange={handleChange}
                 required
                 placeholder="••••••••"
-                className="w-full px-4 py-2 rounded-lg border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full px-4 py-2 rounded-lg border border-input bg-background focus:outline-none focus:ring-2 focus:ring-green-500"
               />
               <p className="text-xs text-muted-foreground">For demo, use: password</p>
             </div>
@@ -105,7 +105,7 @@ const Login = () => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-2 px-4 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors duration-200 font-medium"
+              className="w-full py-2 px-4 bg-green-500 text-primary-foreground rounded-lg hover:bg-green-500/90 transition-colors duration-200 font-medium"
             >
               {loading ? 'Signing in...' : 'Sign In'}
             </button>
@@ -113,7 +113,7 @@ const Login = () => {
           
           <div className="mt-6 text-center">
             <p className="text-sm text-muted-foreground">
-              Don't have an account? <button className="text-primary hover:underline">Sign up</button>
+              Don't have an account? <button className="text-green-500 hover:underline">Sign up</button>
             </p>
           </div>
         </div>

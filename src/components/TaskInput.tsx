@@ -68,7 +68,7 @@ const TaskInput: React.FC = () => {
             className={`
               px-6 py-2 rounded-lg font-medium transition-all duration-200
               ${taskTitle.trim() 
-                ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+                ? 'bg-green-500 text-primary-foreground hover:bg-green-500/90' 
                 : 'bg-muted text-muted-foreground cursor-not-allowed'}
             `}
           >

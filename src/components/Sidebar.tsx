@@ -97,7 +97,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
             </div>
             
             <button 
-              className="w-full flex items-center justify-center gap-2 px-4 py-2 mt-2 mb-4 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition"
+              className="w-full flex items-center justify-center gap-2 px-4 py-2 mt-2 mb-4 bg-green-500 text-primary-foreground rounded-lg hover:bg-green-500/90 transition"
               onClick={() => {}}
             >
               <Plus size={16} />
@@ -164,7 +164,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
               
               <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
                 <div 
-                  className="h-full bg-primary rounded-full"
+                  className="h-full bg-green-500 rounded-full"
                   style={{ 
                     width: `${totalTaskCount > 0 ? (completedTaskCount / totalTaskCount) * 100 : 0}%`,
                     transition: 'width 0.5s ease-in-out' 
