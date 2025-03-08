@@ -1,3 +1,7 @@
+![Screenshot 2025-03-08 230003](https://github.com/user-attachments/assets/5c3c4eba-b7b1-443d-ba08-54e5b1481ffc)
+![Screenshot 2025-03-08 225930](https://github.com/user-attachments/assets/f2032482-4374-4239-ac40-5195226660aa)
+![Screenshot 2025-03-08 225742](https://github.com/user-attachments/assets/a41da6e8-42a6-492c-be71-7ddb007106a3)
+![Screenshot 2025-03-08 225623](https://github.com/user-attachments/assets/0e174388-ae12-4518-9ab0-2f873bf620c6)
 # Taskly - Todo Application
 
 Taskly is a simple and intuitive todo application that helps you manage your tasks efficiently. This project is built using React, Redux, and Tailwind CSS.
